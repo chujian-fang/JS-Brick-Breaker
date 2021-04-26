@@ -1,0 +1,82 @@
+#container{width: 500px;
+    
+    border-radius: 20px;
+position: relative;
+height: 800px;
+margin: 50px  auto;
+border: 2px solid black;}
+#top{
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    height: 50px;
+    background-color: rgb(197, 231, 197);
+    
+    
+}
+#name{
+    color: green;
+    position: absolute;
+    left: 200px;
+    margin-left: 50px;
+    font-weight: bold;
+    line-height: 50px;
+    display: block;
+    width: 100px;
+    height: 50px;
+    margin: auto;
+    float: left;
+}
+#core{
+    color:red;
+    font-weight: bold;
+}
+#con{
+    display: block;
+    float: left;
+    width: 100px;
+    height: 50px;
+    margin: auto;
+    line-height: 50px;
+}
+
+
+#le{
+    line-height: 50px;
+    display: block;
+    float: right;
+    width: 100px;
+    height: 50px;
+    margin: auto;
+
+}
+#level{
+    font-weight: bold;
+}
+.cx{
+    width: 50px;
+    font-size: 1px;
+   
+   opacity: 0.3;
+    position: absolute;
+    right: 2px;
+    bottom: 0px;
+  border-bottom-right-radius: 15px;
+}
+#game-area{ position: relative;
+    background-color: blueviolet;}
+#ball{
+  
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    background-color:rebeccapurple;
+    position: absolute;
+    top: 290px;
+}
+#bat{width: 130px;
+    border-radius: 20px;
+height: 30px;
+background-color: blue;
+position: absolute;
+left: 200px;
+bottom: 0;}
